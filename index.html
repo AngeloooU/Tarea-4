@@ -6,6 +6,18 @@
         <title>Tarea 4 - Promedio de Notas</title>
     </head>
     <body>
-        <script type="text/javascript" src="promedio.js"></script>
+        <script type="text/javascript">
+
+        r=parseInt(prompt("Numero de notas a sumar"));
+        n=0;
+        promedio=0;
+        for (i=0; i<r ; i++) {
+            n+=parseInt(prompt("Ingresa tu nota"));
+            suma=n;
+            promedio=n/r;
+        }
+        alert("La suma de tus notas es " + suma);
+        alert("Tu promedio de notas es " + promedio);
+    </script>
     </body>
 </html>
